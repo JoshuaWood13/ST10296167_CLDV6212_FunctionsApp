@@ -60,7 +60,7 @@ namespace ST10296167_CLDV6212_FunctionsApp.Functions
             }
 
             // Initialize the Azure Table Storage client using connection string
-            var tableServiceClient = new TableServiceClient("DefaultEndpointsProtocol=https;AccountName=mycldvstorage;AccountKey=3O52Un2Yu2gpAPNbUHofCiXEHlSHNPUM1Xqv8vLcNQkgFEAyY7B3mbUXpHoIv65g/PpAHPCjDeQ5+AStIwsu5Q==;EndpointSuffix=core.windows.net");
+            var tableServiceClient = new TableServiceClient("REMOVED FOR SECURITY REASONS");
             // Find or create the necessary table in Azure portal
             var customerTableClient = tableServiceClient.GetTableClient("CustomerProfileTable");
             await customerTableClient.CreateIfNotExistsAsync();

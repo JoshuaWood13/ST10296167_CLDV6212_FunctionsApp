@@ -26,7 +26,7 @@ namespace ST10296167_CLDV6212_FunctionsApp.Functions
                 logger.LogInformation($"Received message: {requestData.Message}");
 
                 // Get connection string
-                string connectionString = "DefaultEndpointsProtocol=https;AccountName=mycldvstorage;AccountKey=3O52Un2Yu2gpAPNbUHofCiXEHlSHNPUM1Xqv8vLcNQkgFEAyY7B3mbUXpHoIv65g/PpAHPCjDeQ5+AStIwsu5Q==;EndpointSuffix=core.windows.net";
+                string connectionString = "REMOVED FOR SECURITY REASONS";
 
                 // Initialize QueueServiceClient
                 QueueServiceClient queueServiceClient = new QueueServiceClient(connectionString);
